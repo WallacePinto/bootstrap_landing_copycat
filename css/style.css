@@ -1,0 +1,109 @@
+.btn-down {
+    color: #FFE484;
+    border-color: #FFE484;
+    font-weight: bolder
+}
+  .btn-down:hover {
+    color: #563D7C;
+    background-color:#FFE484;
+    border-color: #FFE484;
+    font-weight: bolder
+  }
+  .btn-down:focus, .btn-down.focus {
+    box-shadow: 0 0 0 0.2rem #FFE484;
+    font-weight: bolder
+  }
+  .btn-down.disabled, .btn-down:disabled {
+    color: #FFE484;
+    background-color: transparent;
+    font-weight: bolder
+  }
+  .btn-down:not(:disabled):not(.disabled):active, .btn-down:not(:disabled):not(.disabled).active, .show > .btn-down.dropdown-toggle {
+    color: #563D7C;
+    background-color: #FFE484;
+    border-color: #FFE484;
+    font-weight: bolder
+  }
+  .btn-down:not(:disabled):not(.disabled):active:focus, .btn-down:not(:disabled):not(.disabled).active:focus, .show > .btn-down.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #FFE484;
+    font-weight: bolder;
+  }
+  .navbar{
+      color: #CBBDE2;
+  }
+  .bolder{
+    font-weight: bolder;
+  }
+  .h1{
+    font-size: 50px;
+  }
+  .btn-lg, .btn-group-lg > .btn {
+    padding: 0.5rem 5rem;
+    font-size: 1.35rem;
+    line-height: 1.70;
+    border-radius: 0.30rem;
+  }
+  .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+
+  .btn-outline-danger {
+    color: #7952B3;
+    border-color: #7952B3;
+  }
+  .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #7952B3;
+    border-color: #7952B3;
+  }
+  .btn-outline-danger:focus, .btn-outline-danger.focus {
+    box-shadow: 0 0 0 0.2rem #7952B3;
+  }
+  .btn-outline-danger.disabled, .btn-outline-danger:disabled {
+    color: #7952B3;
+    background-color: transparent;
+  }
+  .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active, .show > .btn-outline-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #7952B3;
+    border-color: #7952B3;
+  }
+  .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #7952B3;
+  }
+  .card{
+    background-color: #f8f9fa;
+  }
+  .tamanho{
+    font-size: 30px;
+    color: #0095DD;
+  }
+  
+  .btn-perso, .btn-group-perso > .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.0rem;
+    line-height: 1.20;
+    border-radius: 0.30rem;
+  }
+
+  .overflow{
+    max-height: 200px;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .init{
+    color: #4169E1;
+  }
+  .class{
+    color: #1E90FF	;
+  }
+  .verm{
+    color: #B22222;
+  }
+
+  .footer-link{
+    color: #000000;
+  }
+  

@@ -28,9 +28,6 @@
     box-shadow: 0 0 0 0.2rem #FFE484;
     font-weight: bolder;
   }
-  .navbar{
-      color: #CBBDE2;
-  }
   .bolder{
     font-weight: bolder;
   }
@@ -106,4 +103,16 @@
   .footer-link{
     color: #000000;
   }
-  
+  .navbar-nav li a{
+    color:#CBBDE2;
+  }
+  .navbar{
+    background-color: #563D7C;
+  }
+  .navbar-nav li:hover a, .navbar-nav li.active a
+  {
+    color: #FFFFFF;
+  }
+  .redes{
+    color: #CBBDE2;
+  }

@@ -23,38 +23,41 @@
 
 <Body class="font">
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#563D7C;">
+    <nav class="navbar navbar-expand-lg navbar-nav">
+        <p>
+            <font color=#563D7C>----</font>
+        </p>
         <a class="navbar-brand" href="index.html">
-            <img src="img/bootstrap-nav.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="img/bootstrap-nav.png" width="30" height="30" alt="">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link bolder" style="color: #CBBDE2" href="index.html">Home<span
-                            class="sr-only">(current)</span></a>
+                    <a class="nav-link bolder" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #CBBDE2" href="#">Documentation</a>
+                    <a class="nav-link"
+                        href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Documentation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #CBBDE2" href="#">Examples</a>
+                    <a class="nav-link" href="https://getbootstrap.com/docs/4.4/examples/">Examples</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #CBBDE2" href="#">Icons</a>
+                    <a class="nav-link" href="https://icons.getbootstrap.com/">Icons</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #CBBDE2" href="#">Themes</a>
+                    <a class="nav-link" href="https://themes.getbootstrap.com/">Themes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #CBBDE2" href="#">Expo</a>
+                    <a class="nav-link" href="https://expo.getbootstrap.com/">Expo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #CBBDE2" href="#">Blog</a>
+                    <a class="nav-link" href="https://blog.getbootstrap.com/">Blog</a>
                 </li>
             </ul>
             <ul class="navbar-nav float-md-right">
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" style="color: #CBBDE2" data-toggle="dropdown">.4.4v</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">.4.4v</a>
                     <div class="dropdown-menu">
                         <a href="#" class="dropdown-item">Latest (4.4x)</a>
                         <a href="#" class="dropdown-item">v4.3.1</a>
@@ -68,11 +71,17 @@
                         <a href="#" class="dropdown-item">All versions</a>
                     </div>
                 </li>
-                <a class="btn" targe="_blank"><i class="fab fa-fw fa-github"></i></a>
-                <a class="btn" targe="_blank"><i class="fab fa-slack-hash"></i> </a>
-                <a class="btn" targe="_blank"><i class="cib-open-collective"></i></a>
+                <a class="btn redes target=" _blank" href="https://github.com/twbs/bootstrap"><i
+                        class="fab fa-fw fa-github"></i></a>
+                <a class="btn redes" target="_blank" href="https://twitter.com/getbootstrap"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn redes" target="_blank" href="https://bootstrap-slack.herokuapp.com/"><i
+                        class="fab fa-slack-hash"></i> </a>
+                <a class="btn redes" target="_blank" href="https://opencollective.com/bootstrap/"><i
+                        class="cib-open-collective"></i></a>
                 <form class="form-inline float-md-right">
-                    <button class="btn btn-down" type="button">Download</button>
+                    <a class="btn btn-down" href="https://getbootstrap.com/docs/4.4/getting-started/download/"
+                        role="button"> Download</a>
                 </form>
             </ul>
         </div>
@@ -92,8 +101,11 @@
                         your ideas or build your entire app with our Sass variables and mixins, responsive grid system,
                         extensive prebuilt components, and powerful plugins built on jQuery.
                     </p>
-                    <button type="button" class="btn btn-outline-danger btn-lg">Get started</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg">Download</button>
+                    <a class="btn btn-outline-danger btn-lg"
+                        href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" role="button"> Get
+                        Started</a>
+                    <a class="btn btn-outline-secondary btn-lg"
+                        href="https://getbootstrap.com/docs/4.4/getting-started/download/" role="button"> Download</a>
                     <br><br>
                     <p class="text-muted mb-0">Currently v4.4.1</p>
                     <br><br><br><br>
@@ -126,8 +138,9 @@
                             color="#6495ED">-v</font> 4.4.1
                     </p>
                     <hr width="30%" noshade align="left" />
-                    <button type="button" class="btn btn-outline-primary btn-perso">Read installation docs</button>
-
+                    <a class="btn btn-outline-primary btn-perso"
+                        href="https://getbootstrap.com/docs/4.4/getting-started/download/" role="button"> Read
+                        installation docs</a>
                 </div>
             </div>
             <div class="card">
@@ -144,32 +157,46 @@
                         <div class="overflow">
                             <span class="init"> &lt;link </span>
                             <span class="class">rel=</span><span class="verm">"stylesheet"</span>
-                            <span class="class"> href=</span><span class="verm">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"</span>
-                            <span class="class">integrity=</span><span class="verm">"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"</span>
-                            <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span class="init">&gt;</span>
+                            <span class="class"> href=</span><span
+                                class="verm">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"</span>
+                            <span class="class">integrity=</span><span
+                                class="verm">"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"</span>
+                            <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span
+                                class="init">&gt;</span>
                         </div>
 
                         <h4>JS, Popper.js, and jQuery</h4>
 
                         <div class="overflow">
                             <span class="init">&lt;script</span>
-                            <span class="class">src=</span><span class="verm">"https://code.jquery.com/jquery-3.4.1.slim.min.js"</span>
-                            <span class="class">integrity=</span><span class="verm">"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"</span>
-                            <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span class="init">&gt;&lt;/script&gt;</span> <br>
+                            <span class="class">src=</span><span
+                                class="verm">"https://code.jquery.com/jquery-3.4.1.slim.min.js"</span>
+                            <span class="class">integrity=</span><span
+                                class="verm">"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"</span>
+                            <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span
+                                class="init">&gt;&lt;/script&gt;</span> <br>
 
                             <span class="init">&lt;script</span>
-                            <span class="class">src=</span><span class="verm">"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"</span>
-                            <span class="class">integrity=</span><span class="verm">"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"</span>
-                            <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span class="init">&gt;&lt;/script&gt;</span> <br>
+                            <span class="class">src=</span><span
+                                class="verm">"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"</span>
+                            <span class="class">integrity=</span><span
+                                class="verm">"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"</span>
+                            <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span
+                                class="init">&gt;&lt;/script&gt;</span> <br>
 
                             <span class="init"> &lt;script</span>
-                            <span class="class">src=</span><span class="verm">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"</span>
-                            <span class="class">integrity=</span><span class="verm">"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-                            <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span class="init">&gt;&lt;/script&gt;</span>
+                            <span class="class">src=</span><span
+                                class="verm">"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"</span>
+                            <span class="class">integrity=</span><span
+                                class="verm">"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                                <span class="class">crossorigin=</span><span class="verm">"anonymous"</span><span
+                                    class="init">&gt;&lt;/script&gt;</span>
                         </div>
 
                         <hr width="30%" noshade align="left" />
-                        <button type="button" class="btn btn-outline-primary btn-perso">Explore the docs</button>
+                        <a class="btn btn-outline-primary btn-perso"
+                            href="https://getbootstrap.com/docs/4.4/layout/overview/" role="button">Explore the docs</a>
+
                     </p>
                 </div>
             </div>
@@ -182,11 +209,10 @@
                     <h3 class="card-title">Offical Themes</h3>
                     <p class="card-text">Take Bootstrap 4 to the next level with official premium themes—toolkits built
                         on Bootstrap with new components and plugins, docs, and build tools.</p>
-                    <img style="width:420px; height:200px;" src="img/bootstrap-themes.png">
+                    <img style="width:400px; height:160px;" src="img/bootstrap-themes.png">
                     <hr width="30%" noshade align="left" />
-                    <button type="button" class="btn btn-outline-primary btn-perso">Browse themes</button>
-
-
+                    <a class="btn btn-outline-primary btn-perso" href="https://themes.getbootstrap.com/"
+                        role="button">Browse themes</a>
                 </div>
             </div>
         </div>
@@ -195,27 +221,40 @@
     <!-- Fim da pagina -->
     <section class="page-section mb-0" id="endpage">
         <footer class="bd-footer text-muted">
-        <div class="card-group">
-            <div class="card fluid-container div">
-                <div class="card-body align-top">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link footer-link" href="#">Github</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link footer-link" href="#">Twitter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link footer-link" href="#">Examples</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link footer-link" href="#">About</a>
-                        </li>
-                    </ul>
-                <p>Designed and built with all the love in the world by the Bootstrap team with
-                    the help of our contributors.<br>
-                    Currently v4.4.1. Code licensed MIT, docs CC BY 3.0.</p>
-            </div>
+            <div class="card-group">
+                <div class="card fluid-container div">
+                    <div class="card-body align-top">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link footer-link" href="https://github.com/twbs/bootstrap">Github</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer-link" href="https://twitter.com/getbootstrap">Twitter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer-link"
+                                    href="https://getbootstrap.com/docs/4.4/examples/">Examples</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link footer-link"
+                                    href="https://getbootstrap.com/docs/4.4/about/overview/">About</a>
+                            </li>
+
+                        </ul>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <p>Designed and built with all the love in the world by the <a class="bolder text-muted"
+                                        href="https://getbootstrap.com/docs/4.4/about/team/">Bootstrap team</a> with
+                                    the help of <a class="bolder text-muted"
+                                        href="https://github.com/twbs/bootstrap/graphs/contributors">our
+                                        contributors.</a><br>
+                                    Currently v4.4.1. Code licensed <a class="bolder text-muted"
+                                        href="https://github.com/twbs/bootstrap/blob/master/LICENSE">MIT</a>, docs <a
+                                        class="bolder text-muted" href="https://creativecommons.org/licenses/by/3.0/">CC
+                                        BY 3.0.</a></p>
+                            </li>
+                        </ul>
+                    </div>
         </footer>
     </section>
 

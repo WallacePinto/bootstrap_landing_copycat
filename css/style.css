@@ -1,8 +1,8 @@
-.btn-down {
+  .btn-down {
     color: #FFE484;
     border-color: #FFE484;
     font-weight: bolder
-}
+  }
   .btn-down:hover {
     color: #563D7C;
     background-color:#FFE484;
@@ -113,6 +113,9 @@
   {
     color: #FFFFFF;
   }
-  .redes{
+  .redes-sociais{
     color: #CBBDE2;
+  }
+  .tag :hover{
+    color: #FFFFFF;
   }
